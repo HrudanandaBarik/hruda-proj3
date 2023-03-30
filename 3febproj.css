@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-image: url(asses2/0b5b6ac7-e47e-48da-b77b-8d5a113b7330.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width:100%;
+}
+header {
+    padding: 15px 0;
+}
+nav {
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    padding: 0 0 0 20px;
+}
+li {
+    list-style: none;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: orange;
+    font-weight: 700;
+}
+nav ul li {
+    padding: 0 20px;
+    font-size: 20px;
+}
+button {
+    background-color: rgb(240, 73, 73);
+    color: white;
+    font-weight: 600;
+    padding: 4px 10px;
+    width: fit-content;
+    border: 1px solid black;
+}
+.ord {
+    padding: 0 15px 0 0;
+    font-size: 50px;
+}
+.herosection {
+    display: flex;
+    align-items: center;
+}
+.heromiddle {
+    text-align: center;
+    margin-top: 100px;
+    margin: 0 auto;
+
+}
+.heromiddle h1 {
+    font-size: 60px;
+    color: rgb(240, 160, 10);
+    font-weight: 600;
+    line-height: 70px;
+    margin: 20% 0;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+.heromiddle button{
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    padding: 20px 0;
+}
+footer img{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
+.ord button{
+    font-size: 20px;
+}
